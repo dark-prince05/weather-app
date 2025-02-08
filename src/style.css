@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/weather-background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family:
+    Comic Sans MS,
+    cursive;
+}
+
+.container {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  font-size: 1em;
+}
+
+button {
+  font-weight: bold;
+}
+
+.weather-display {
+  width: 60%;
+  height: 70vh;
+  margin: 30px auto;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#loading {
+  align-self: center;
+}
